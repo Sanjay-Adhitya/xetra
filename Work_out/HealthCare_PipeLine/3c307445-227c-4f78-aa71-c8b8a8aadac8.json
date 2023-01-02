@@ -1,0 +1,85 @@
+{
+    "resourceType": "Bundle",
+    "identifier": [
+        {
+            "type": {
+                "text": "APLO Bundle ID",
+                "coding": [
+                    {
+                        "code": "DSBID",
+                        "display": "APLO Bundle ID"
+                    }
+                ]
+            },
+            "value": "00ef1e3c328548c2bc4c6296f11b2ed1"
+        }
+    ],
+    "type": "collection",
+    "timestamp": "2022-06-28 08:54:37.968825",
+    "entry": [
+        {
+            "resource": {
+                "id": "f509d575-b0f5-45da-a347-6cc7501efb4b",
+                "resourceType": "Organization",
+                "active": true,
+                "identifier": [],
+                "type": [
+                    {
+                        "CodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260385009",
+                                    "display": "Negative"
+                                },
+                                {
+                                    "system": "https://acme.lab/resultcodes",
+                                    "code": "NEG",
+                                    "display": "Negative"
+                                }
+                            ],
+                            "text": "Negative for Chlamydia Trachomatis rRNA"
+                        }
+                    }
+                ],
+                "name": "HDI Team Organization",
+                "alias": [
+                    "Allpolo_Hospital_1,Allpolo_Hospital_one,first_Allpolo_Hospital,1st_Allpolo_Hospital"
+                ],
+                "Consent":true,
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "(+044) 686-558-9048",
+                        "use": "work",
+                        "rank": "1",
+                        "period": "24/7"
+                    },
+                    {
+                        "system": "fax",
+                        "value": "0446258575",
+                        "use": "work",
+                        "rank": "1",
+                        "period": "24/7"
+                    },
+                    {
+                        "system": "email",
+                        "value": "applo24x7@applo.com",
+                        "use": "work",
+                        "rank": "1",
+                        "period": "24/7"
+                    }
+                ],
+                "address": [
+                    "Address"
+                ],
+                "partOf": [
+                    "Allpolo Hospital One Parent"
+                ],
+                "endpoint": [
+                    "hppts://HDI&Groups.com/"
+                ]
+            }
+        }
+    ]
+}
