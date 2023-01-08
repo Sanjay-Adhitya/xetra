@@ -1,0 +1,1 @@
+aws s3 ls xetra-1234 --recursive --no-sign-request
